@@ -2,6 +2,20 @@ body{
 
 background-color:gray;
 background-image: url('triangular.png');
+font-size:medium;
+font-family: Arial;
 
+	selector:pseudo-class {  
+		a:visited {
+			color: #00FF00;
+			
+			a:hover {
+			color: #FF00FF;
 
+			
+			}
+
+		
+	}
 }
+	
